@@ -9,7 +9,7 @@ public class CountrysearchApplication
     static CountryList theList;
     public static void main(String[] args)
     {
-        theList = new CountryList;
+        theList = new CountryList();
         SpringApplication.run(CountrysearchApplication.class, args);
     }
 
